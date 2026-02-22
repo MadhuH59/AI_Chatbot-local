@@ -126,6 +126,8 @@ AI_Chatbot-local/
 
 ### 1️⃣ Clone Repository
 
+https://img.shields.io/badge/Python-3.12-blue
+
 ```bash
 git clone https://github.com/MadhuH59/AI_Chatbot-local.git
 cd AI_Chatbot-local
@@ -151,6 +153,7 @@ pip install -r requirements.txt
 ---
 
 ### 4️⃣ Run Ollama Model
+https://img.shields.io/badge/LLM-Ollama-green
 
 ```bash
 ollama run llama3
@@ -159,6 +162,8 @@ ollama run llama3
 ---
 
 ### 5️⃣ Start Application
+
+https://img.shields.io/badge/Streamlit-App-red
 
 ```bash
 streamlit run app.py
