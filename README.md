@@ -97,6 +97,22 @@ Open browser:
 http://localhost:8501
 ```
 
+## ✅ Small Summary of **Streamlit**
+
+**Streamlit** is a Python framework used to build **interactive web applications** directly from Python code.
+It allows developers to create dashboards, AI apps, and chat interfaces **without using HTML, CSS, or JavaScript**.
+
+👉 You write Python → Streamlit automatically creates a website and runs it in your browser.
+
+**Key idea:**
+
+> Streamlit converts Python scripts into web apps quickly and easily.
+
+
+### 🧠 One-Line Understanding
+
+**Streamlit = fastest way to turn Python programs into web apps.**
+
 ---
 
 ## 📁 Project Structure
