@@ -250,13 +250,4 @@ Built a full-stack AI Assistant Platform featuring conversational AI, Retrieval-
 ---
 
 
-Add badges at top:
-
-```md
-![Python](https://img.shields.io/badge/Python-3.12-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
-![LLM](https://img.shields.io/badge/LLM-Ollama-green)
-```
-
----
 
