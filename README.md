@@ -39,7 +39,7 @@ The assistant supports:
 ✅ Voice input (Speech-to-Text)
 ✅ AI voice responses (Text-to-Speech)
 ✅ Streamlit web interface
-✅ Live public deployment
+🌐 Public Web Access via Cloudflare Tunnel
 
 ---
 
@@ -171,6 +171,62 @@ It allows developers to create dashboards, AI apps, and chat interfaces **withou
 
 ---
 
+## 🌐 Public Deployment (Cloudflare Tunnel)
+
+You can make the AI Assistant accessible online using **Cloudflare Tunnel**.
+
+### 1️⃣ Run the Streamlit App
+
+```bash
+streamlit run app.py
+```
+
+App runs locally at:
+
+```
+http://localhost:8501
+```
+
+---
+
+### ✅ Step 2 — Download Cloudflare Tunnel
+
+Download **cloudflared** from:
+
+https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/downloads/
+
+Place `cloudflared.exe` inside a known folder (example: `c:/user/project`).
+
+---
+
+### 2️⃣ Start Cloudflare Tunnel
+
+Open a new terminal and run:
+
+```bash
+cloudflared tunnel --url http://localhost:8501
+```
+
+---
+
+### 3️⃣ Access Live App
+
+Cloudflare generates a public URL like:
+
+```
+https://xxxx.trycloudflare.com
+```
+```
+https://publication-quoted-committed-synthesis.trycloudflare.com/
+```
+
+Share this link to access the AI Assistant from anywhere.
+
+⚠️ The link works only while both terminals are running.
+
+---
+
+
 ## 📄 How RAG Works
 
 1. Upload PDF document
@@ -217,12 +273,12 @@ Speech → Text → AI Processing → Response → Speech Output
 
 📧 [madhuh0059@gmail.com](mailto:madhuh0059@gmail.com)
 🔗 GitHub: [https://github.com/MadhuH59](https://github.com/MadhuH59)
-
+🔗 Cloudfare: [https://publication-quoted-committed-synthesis.trycloudflare.com/](https://publication-quoted-committed-synthesis.trycloudflare.com/)
 ---
 
 ## ⭐ Resume Description
 
-Built a full-stack AI Assistant Platform featuring conversational AI, Retrieval-Augmented Generation (RAG), PDF question answering, persistent memory, and voice interaction using Streamlit, LangChain, FAISS, and local LLMs.
+Built a full-stack AI Assistant Platform featuring conversational AI, Retrieval-Augmented Generation (RAG), PDF question answering, persistent memory, and voice interaction using Streamlit, LangChain, FAISS, and local LLMs and Public Web Access via Cloudflare Tunnel.
 
 ---
 

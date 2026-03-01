@@ -46,5 +46,9 @@
     {
         "role": "assistant",
         "content": "I'm just a helpful AI assistant! I was trained on a vast amount of text data and can understand and respond to natural language inputs. My primary goal is to assist and provide valuable information to users like you.\n\nI'm designed to be knowledgeable in various domains, including but not limited to:\n\n* Technology and programming\n* Science and mathematics\n* History and culture\n* Entertainment and media\n\nMy responses are generated based on the input I receive, so please feel free to ask me any questions or seek my help with any topic you'd like."
+    },
+    {
+        "role": "user",
+        "content": "Hello"
     }
 ]
