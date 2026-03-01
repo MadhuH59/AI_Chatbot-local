@@ -272,7 +272,9 @@ Speech → Text → AI Processing → Response → Speech Output
 **Madhu H**
 
 📧 [madhuh0059@gmail.com](mailto:madhuh0059@gmail.com)
+
 🔗 GitHub: [https://github.com/MadhuH59](https://github.com/MadhuH59)
+
 🔗 Cloudfare: [https://publication-quoted-committed-synthesis.trycloudflare.com/](https://publication-quoted-committed-synthesis.trycloudflare.com/)
 ---
 
